@@ -35,7 +35,16 @@ st.info(
     "Proyecto academico de Ingenieria Biomedica. "
     "Analisis de movimiento mediante video."
 )
+st.markdown("""
+### 👩‍🎓 Equipo desarrollador
 
+**Proyecto académico – Ingeniería Biomédica**
+
+- Paola Mojica
+- Julián Pérez
+- Daniel Perdomo
+- Sebastián Narváez
+""")
 # ============================================
 # MODELO MEDIAPIPE
 # ============================================
