@@ -21,10 +21,15 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🩼 CrutchForce - analizar la marcha de personas que utilizan muletas, evaluando sus movimientos y estimando la fuerza aplicada sobre ellas, para identificar posibles alteraciones biomecánicas y contribuir a una movilidad más segura.")
-st.subheader")
-    "Sistema de analisis biomecanico de marcha con muletas"
+st.title("🦯 CrutchForce")
+
+st.write(
+    "Analizamos la marcha de personas que utilizan muletas, "
+    "evaluando sus movimientos y estimando la fuerza aplicada "
+    "para estudiar posibles alteraciones biomecánicas."
 )
+
+st.subheader("Sistema de análisis biomecánico de marcha con muletas")
 
 st.info(
     "Proyecto academico de Ingenieria Biomedica. "
