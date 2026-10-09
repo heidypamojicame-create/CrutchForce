@@ -21,8 +21,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🩼 CrutchForce  
-analizar la marcha de personas que utilizan muletas, evaluando sus movimientos y estimando la fuerza aplicada sobre ellas, para identificar posibles alteraciones biomecánicas y contribuir a una movilidad más segura.")
+st.title("🩼 CrutchForce - analizar la marcha de personas que utilizan muletas, evaluando sus movimientos y estimando la fuerza aplicada sobre ellas, para identificar posibles alteraciones biomecánicas y contribuir a una movilidad más segura.")
 st.subheader")
     "Sistema de analisis biomecanico de marcha con muletas"
 )
