@@ -21,7 +21,8 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🩼 CrutchForce")
+st.title("🩼 CrutchForce  
+analizar la marcha de personas que utilizan muletas, evaluando sus movimientos y estimando la fuerza aplicada sobre ellas, para identificar posibles alteraciones biomecánicas y contribuir a una movilidad más segura.")
 st.subheader(
     "Sistema de analisis biomecanico de marcha con muletas"
 )
@@ -517,7 +518,7 @@ if video is not None:
             if datos.notna().sum().sum() > 0:
 
                 st.subheader(
-                    "Movimiento de ambos codos"
+                    "Ángulo de flexión y extensión de ambos codos (el angulo de los codos durante la marcha)"
                 )
 
                 columnas_codo = [
@@ -532,7 +533,7 @@ if video is not None:
                 )
 
                 st.subheader(
-                    "Movimiento de ambos hombros"
+                    "Variacion angular de hombro. (los angulos de los hombros durante el desplazamiento)"
                 )
 
                 columnas_hombro = [
@@ -547,7 +548,7 @@ if video is not None:
                 )
 
                 st.subheader(
-                    "Desplazamiento vertical de munecas"
+                    "Posición de muñecas. (las oscilaciones que presentan las manos al utilizar las muletas) "
                 )
 
                 st.line_chart(
